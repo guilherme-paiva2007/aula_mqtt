@@ -1,8 +1,8 @@
 import paho.mqtt.client as paho
 
-broker = ""
+broker = "broker.hivemq.com"
 port = 1883
-topic = ""
+topic = "senai/dev"
 
 client = paho.Client()
 client.connect(broker, port)

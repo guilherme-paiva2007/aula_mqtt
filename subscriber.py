@@ -1,8 +1,8 @@
 import paho.mqtt.client as paho
 
-broker = ""
+broker = "broker.hivemq.com"
 port = 1883
-topic = ""
+topic = "senai/dev"
 
 def on_message(client, userdata, msg):
     print(f"Mensagem recebida no tópico '{msg.topic}': {msg.payload.decode()}")

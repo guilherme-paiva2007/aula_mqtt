@@ -1,0 +1,5 @@
+Para utilizar este projeto, é necessário a instalação da biblioteca paho-mqtt
+
+A inicialização separada dos dois arquivos é necessária, um para a escuta e outro para o envio de mensagens.
+    - publisher.py abre uma entrada de mensagens no terminal capaz de enviar mensagens para o tópico do broker.
+    - subscriper.py recebe as mensagens que estão chegando pelo tópico do broker.
